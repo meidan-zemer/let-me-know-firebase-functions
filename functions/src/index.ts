@@ -56,7 +56,6 @@ function updateUserNewMessage(uid:string,cpId:string, connectorId:string):Promis
             }
         });
 }
-
 function addUser(uid:string) : Promise<any>{
     const userDoc:any = {
         id:uid
